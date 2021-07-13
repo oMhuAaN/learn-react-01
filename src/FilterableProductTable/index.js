@@ -104,7 +104,6 @@ class FilterableProductTable extends React.Component {
     //   }
     //   return res
     // }, [])
-
     return (
       <div>
         <SearchBar
@@ -116,6 +115,7 @@ class FilterableProductTable extends React.Component {
         <ProductTable
           products={products}
         />
+        
       </div>
     );
   }
